@@ -228,6 +228,20 @@ p {
   left: 515px;
   top: 800px;
 }
+.p-position-3 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+}
+.p-position-4 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+}
 
 .p-1 {
   font-family: Roboto;
