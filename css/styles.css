@@ -80,16 +80,15 @@ body {
   border-radius: 4px;
 }
 
-.button-link {
+button {
   color: #000;
   background: #f5f4fa;
 }
 
-.button-link:hover,
-.button-link:focus {
+button:hover,
+button:focus {
   color: #ffffff;
   background: #2196f3;
-  cursor: pointer;
 }
 
 .list-1 {
