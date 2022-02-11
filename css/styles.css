@@ -85,9 +85,11 @@ body {
   background: #f5f4fa;
 }
 
-.button-link:hover {
-  color: #2196f3;
-  background: #ffffff;
+.button-link:hover,
+.button-link:focus {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
 }
 
 .list-1 {
@@ -195,6 +197,12 @@ body {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+
+.p-text {
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* Студия */
@@ -457,7 +465,7 @@ p {
   top: 800px;
 }
 
-.p-1 {
+.text-p {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
